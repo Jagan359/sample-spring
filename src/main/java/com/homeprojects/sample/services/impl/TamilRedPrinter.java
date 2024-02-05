@@ -1,9 +1,9 @@
 package com.homeprojects.sample.services.impl;
 
 import com.homeprojects.sample.services.RedPrinter;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class TamilRedPrinter implements RedPrinter {
     @Override
     public String print() {
